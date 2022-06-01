@@ -15,7 +15,7 @@ steps:
 - task: VSBuild@1
   displayName: 'Build Data Warehouse'
   inputs:
-    solution: src/sqldatabase/AdventureWorksDW.sln
+    solution: samples/databases/wide-world-importers/wwi-dw-ssdt/WideWorldImportersDW.sln
     configuration: 'Release'
 
 - task: CopyFiles@2
